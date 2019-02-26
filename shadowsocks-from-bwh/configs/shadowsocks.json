@@ -1,0 +1,9 @@
+{
+  "server": "8.8.8.8",
+  "timeout": 600,
+  "method": "chacha20",
+  "fast_open": true,
+  "port_password": {
+    "8000": "johnny"
+  }
+}
