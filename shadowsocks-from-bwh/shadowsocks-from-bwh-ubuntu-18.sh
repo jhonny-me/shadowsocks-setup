@@ -20,4 +20,6 @@ EOT
 
 sudo ldconfig
 
+print 'supervisord -c ./supervisord.conf'
+
 sudo ssserver -c ~/shadowsocks.json start
