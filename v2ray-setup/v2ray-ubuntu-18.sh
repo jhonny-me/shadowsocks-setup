@@ -12,4 +12,6 @@ bash <(curl -L -s https://install.direct/go.sh)
 print "config reference https://intmainreturn0.com/v2ray-config-gen/"
 print 'supervisord -c ./supervisord.conf'
 
+sudo supervisord
+
 /usr/bin/v2ray/v2ray -config ~/v2ray.json
